@@ -1,3 +1,5 @@
+#                                          commit inicial
+
 # 1. abrimos el git bash dentro de la carpeta en la cual queremos clonar nuestro repositorio.
 
 # 2. Usamos "git clone" + el enlace del repositorio para clonar el repositorio de GitHub a nuestro equipo.
@@ -30,6 +32,8 @@
 
 -----------------------------------------------------------------------------------------------------
 
+#                                          gitignore
+
 # Para ignorar archivos se usa el ".gitignore". Este es un archivo de tipo texto en el cual agregaremos los ficheros o carpetas que queremos que sean ignorados.
 
 # 1. Para esto, primero debemos tener los archivos y/o carpetas que queremos ignorar. En este caso los crearemos usando el comando "touch" y "mkdir" para crear un fichero y una carpeta.
@@ -42,3 +46,9 @@
 ![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/gitignore.png)
 
 # 3. Subimos los cambios realizados con "git add ." "git commit -m" y "git push".
+
+-----------------------------------------------------------------------------------------------------
+
+#                                          Branches 
+
+# Creamos el archivo 
