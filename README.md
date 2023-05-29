@@ -49,22 +49,34 @@
 
 -----------------------------------------------------------------------------------------------------
 
-#                                          Branches 
+#                                          Merge Directo 
 
 # 1. Creamos el archivo "1.txt" usando "touch" y lo agregamos con "git add ." y luego "git commit -m" para confirmar los cambios.
 
 # 2. Creamos la rama usando "git branch".
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/git%20branch.png)
 
 # 3. cambiamos a la nueva rama usando "git checkout" + el nombre de la rama creada para desplazarnos a ella. Luego con "touch" creamos el archivo "2.txt" y usamos "git add ." y "git commit -m" (esto se debe hacer estando dentro de la rama porque ahi es donde lo queremos agregar).
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/git%20checkout.png)
 
 # 4. Para subir la rama al repositorio remoto, usamos el comando "git branch" con las opciones "--set-upstream origin" + el nombre de la rama que queremos subir. Esto lo que hace es seleccionar nuestro repositorio remoto de origen y subira la rama que le indiquemos; por otro lado, si queremos subir todas las ramas podemos usar el comando "git push --all"
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/git%20push%20branch.png)
 
 # 5. Ahora, para fusionar la rama que creamos con nuestro main, lo que debemos hacer es un "git checkout main" y por consiguiente un "git merge" + el nombre de la rama que queremos fusionar.
 
 ![]()
+
+-----------------------------------------------------------------------------------------------------
+
+#                                          Merge con Conflicto
+
+# Nos posicionamos en la rama main y usando un "echo" le escribimos hola al archivo "1.txt" y hacemos commit.
+
+![]()
+
+# Cambiamos a la rama v0.2 y con un "echo" le escribimos adiós al archivo "1.txt" y hacemos commit.
+
+# 
