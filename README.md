@@ -67,7 +67,7 @@
 
 # 5. Ahora, para fusionar la rama que creamos con nuestro main, lo que debemos hacer es un "git checkout main" y por consiguiente un "git merge" + el nombre de la rama que queremos fusionar.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/git%20merge.png)
 
 -----------------------------------------------------------------------------------------------------
 
@@ -75,26 +75,34 @@
 
 # Nos posicionamos en la rama main y usando un "echo" le escribimos hola al archivo "1.txt" y hacemos commit.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/echo.png)
 
 # Cambiamos a la rama v0.2 y con un "echo" le escribimos adiós al archivo "1.txt" y hacemos commit.
 
 # Como pequeño paréntesis, podemos usar "git branch" con las opciones "--merge" y "--no-merge" para listar las ramas que ya estan con merge y las que no lo estan respectivamente.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/--merge--no-merge.png)
 
 # Ahora, tendremos que ubicarnos en la rama main e intentaremos hacer un merge con la rama v0.2. Como podremos ver, no nos va a dejar ya que se realizaron cambios en el mismo archivo y par solucionarlo, debemos abrir (en este caso) el editor de texto para solucionar el conflicto editando el archivo y poniendo el cambio que queremos dejar.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/conflicto.png)
 
 # Así nos sale al abrir el archivo.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/conflicto%20en%20el%20editor.png)
 
 # Despues de dejar lo que queremos que tenga el archivo guardamos los cambios y cerramos el editor de texto y, para finalizar, hacemos un commit.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/solucion%20conflicto.png)
 
 # Para finalizar, podemos borrar la rama usando "git branch -d" + el nombre de la rama que querramos borrar.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/borrar%20branch.png)
+
+# Para borrar la rama del remoto usamos "git push --delete" + el nombre de la rama a borrar.
+
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/borrar%20rama%20remoto.png)
+
+# Podemos usar "git log --oneline --decorate --graph --all" para ver más detalladamente los cambios que hemos realizado.
+
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/ver%20cambios.png)
