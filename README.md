@@ -79,4 +79,22 @@
 
 # Cambiamos a la rama v0.2 y con un "echo" le escribimos adiós al archivo "1.txt" y hacemos commit.
 
-# 
+# Como pequeño paréntesis, podemos usar "git branch" con las opciones "--merge" y "--no-merge" para listar las ramas que ya estan con merge y las que no lo estan respectivamente.
+
+![]()
+
+# Ahora, tendremos que ubicarnos en la rama main e intentaremos hacer un merge con la rama v0.2. Como podremos ver, no nos va a dejar ya que se realizaron cambios en el mismo archivo y par solucionarlo, debemos abrir (en este caso) el editor de texto para solucionar el conflicto editando el archivo y poniendo el cambio que queremos dejar.
+
+![]()
+
+# Así nos sale al abrir el archivo.
+
+![]()
+
+# Despues de dejar lo que queremos que tenga el archivo guardamos los cambios y cerramos el editor de texto y, para finalizar, hacemos un commit.
+
+![]()
+
+# Para finalizar, podemos borrar la rama usando "git branch -d" + el nombre de la rama que querramos borrar.
+
+![]()
