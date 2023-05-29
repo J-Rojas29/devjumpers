@@ -34,10 +34,11 @@
 
 # 1. Para esto, primero debemos tener los archivos y/o carpetas que queremos ignorar. En este caso los crearemos usando el comando "touch" y "mkdir" para crear un fichero y una carpeta.
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/privado%20txt.png)
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/privada.png)
 
 # 2. Ya que tenemos el archivo y la carpeta, usamos un "echo -e" (la extensión "-e" se usa para que el comando echo pueda reconocer caracteres de secuencia) para crear y asignarle los archivos y carpetas que queremos ignorar al ".gitignore" de la siguiente manera:
 
-![]()
+![](https://github.com/J-Rojas29/devjumpers/blob/main/Pantallazos/gitignore.png)
 
 # 3. Subimos los cambios realizados con "git add ." "git commit -m" y "git push".
